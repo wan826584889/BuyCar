@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: .14rem;
+    list-style: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    font-size: 625%;
+    background: #e8e7e6;
+}
+
+a,
+input,
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    appearance: none;
+    border-radius: 0%;
+}
+
+section {
+    flex: 1;
+    overflow-y: scroll;
+    width: 100%;
+}
